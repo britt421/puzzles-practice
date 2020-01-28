@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Annoy0matic</title>
+</head>
+<body>
+    <h1>Annoy0matic!</h1>
+
+<script>
+    var response = prompt("Are we there yet?");
+
+    while (response.indexOf("yes") === -1 && response.indexOf("yeah") === -1) {
+        var response = prompt("Are we there yet?");
+    }
+
+    alert("Yay! We made it!");
+
+//Use the method indexOf() to make the checking a little more flexible. indexOf() checks the string for a match.
+
+//************************************************************************//
+
+// Hard coded "yes" and "yeah" without indexOf()
+
+// var response = prompt("Are we there yet?");
+
+// while (response !== "yes" && response !== "yeah") {
+//     var response = prompt("Are we there yet?");
+// }
+
+alert("Yay! We made it!");
+
+</script>
+
+</body>
+</html>
